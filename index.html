@@ -1,0 +1,45 @@
+<!-- index.html (Landing Page with Parallax) -->
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jebisha Pearl | Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="../js/script.js" defer></script>
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="flex justify-between items-center p-5">
+    <h1 class="text-3xl font-bold">Jebisha Pearl</h1>
+    <nav>
+      <ul class="flex gap-6">
+        <li><a href="index.html" class="text-blue-400 font-semibold hover:text-gray-400">Home</a></li>
+
+        <li><a href="./portfolio/about.html" class="hover:text-gray-400">About</a></li>
+        <li><a href="./portfolio/projects.html" class="hover:text-gray-400">Projects</a></li>
+        <li><a href="./portfolio/blogs.html" class="hover:text-gray-400">Blogs</a></li>
+        <li><a href="./portfolio/contact.html" class="hover:text-gray-400">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="darkModeToggle" class="p-2 border rounded-lg">🌙</button>
+  </header>
+
+  <main>
+    <!-- Parallax Section -->
+    <section class="h-screen bg-cover bg-fixed" style="background-image: url('images/hero-bg.jpg');">
+      <div class="h-full flex flex-col justify-center items-center bg-black bg-opacity-50">
+        <h2 class="text-5xl font-bold mb-4">Welcome to My Portfolio</h2>
+        <p class="text-xl mb-8">Explore my work and journey in software development</p>
+        <a href="./portfolio/projects.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg">View Projects</a>
+      </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="py-20 bg-gray-800 text-center">
+      <h3 class="text-4xl font-semibold mb-6">Hi, I'm Jebisha Pearl</h3>
+      <p class="text-lg">A passionate software developer specializing in creating interactive and responsive applications.</p>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dark body {
+  background-color: #121212;
+  color: #fff;
+}
+
+section {
+  background-attachment: fixed;
+}
